@@ -1,0 +1,41 @@
+body {
+    position: relative;
+    padding-top: 40px;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    -ms-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background-color: #29b6f6;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #29b6f6;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #fff;
+    text-decoration: none;
+    background-color: #29b6f6;
+}
+
+
+pre {
+    background: #fff;
+    color: #ef4a43;
+}
